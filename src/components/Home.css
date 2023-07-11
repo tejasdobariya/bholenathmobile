@@ -74,40 +74,6 @@
 }
 
 
-
-.contact {
-    height: 19vh;
-    /* border: 2px solid red; */
-    display: flex;
-    color: white;
-    background-color: rgb(71, 32, 183);
-
-    .contact1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 7vh;
-        width: 50%;
-    }
-
-    .contact2 {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        line-height: 2;
-    }
-
-    .contact3 a {
-        text-decoration: none;
-        color: white;
-    }
-
-    .icons a {
-        color: white;
-    }
-}
-
 .copy {
     text-align: center;
     color: white;
@@ -124,7 +90,6 @@
     .content,
     .info,
     .copy,
-    .contact,
     .more {
         width: 117%;
     }
@@ -193,42 +158,6 @@
             margin-top: 5%;
             font-size: 17px;
             margin-left: 4%;
-        }
-    }
-
-    .contact {
-        height: 15vh;
-
-        .contact1 {
-            font-size: 5vh;
-        }
-
-        .contact2 {
-            line-height: 1.5;
-            font-size: 2vh;
-        }
-
-        .icons .insta {
-            font-size: 4vh;
-        }
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .contact {
-        height: 13vh;
-
-        .contact1 {
-            font-size: 4vh;
-        }
-
-        .contact2 {
-            line-height: 1.5;
-            font-size: 2vh;
-        }
-
-        .icons .insta {
-            font-size: 3vh;
         }
     }
 }

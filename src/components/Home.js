@@ -2,10 +2,9 @@ import React, { Fragment } from 'react'
 import './Home.css';
 import video from '../img/video1.mp4';
 import GroupExample from './CardGroup';
-import { AiOutlineInstagram } from 'react-icons/ai';
 import MoreInfo from './MoreInfo';
+import Contact from './Contact';
 const Home = () => {
-    const url = 'https://instagram.com/bholenathmobilecare?igshid=MTIzZWMxMTBkOA==';
     return (
         <Fragment>
             <div className='vid'>
@@ -40,21 +39,9 @@ const Home = () => {
             {/*  */}
             <MoreInfo />
 
-            <div className='contact'>
-                <div className='contact1'>Contact Us</div>
-                <div className='contact2'>
-                    Near PatelChowk, Rajkot-360002
+            {/*  */}
+            <Contact />
 
-                    <div className='contact3'>
-                        <a href='mailto:bholenathmobilecare@gmail.com' >bholenathmobilecare@gmail.com</a>
-                    </div>
-                    <div className='icons'>
-                        <a target='_blank' rel="noreferrer" href={url}>
-                            <AiOutlineInstagram className='insta' />
-                        </a>
-                    </div>
-                </div>
-            </div>
 
             <div className='copy'>
                 ©2023 by Bholenath Mobile.
