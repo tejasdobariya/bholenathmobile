@@ -1,0 +1,268 @@
+.vid {
+    min-height: 80vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid video {
+    height: 65vh;
+
+}
+
+
+
+.content {
+    min-height: 60vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    margin: auto;
+    color: white;
+
+    .big {
+        font-size: 10vh;
+        font-weight: 600;
+    }
+
+    .mid {
+        font-size: 3vh;
+        margin-top: 15px;
+    }
+
+    .small {
+        font-size: 2vh;
+        margin-top: 13px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+.info {
+    min-height: 120vh;
+    /* border: 2px solid red; */
+    background-color: rgb(71, 32, 183);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .info1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info2 {
+        font-size: 6vh;
+    }
+
+    .info3 {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 3vh;
+    }
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.more {
+    /* border: 2px solid red; */
+    display: flex;
+    color: white;
+
+    .moreimg img {
+        height: 60vh;
+    }
+
+    .more1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .more11 {
+        font-size: 5vh;
+        font-weight: 500;
+    }
+
+    .more12 {
+        width: 60%;
+        margin-top: 3vh;
+        font-weight: 350;
+    }
+
+    .workings {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 7%;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.contact {
+    height: 19vh;
+    /* border: 2px solid red; */
+    display: flex;
+    color: white;
+    background-color: rgb(71, 32, 183);
+
+    .contact1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 7vh;
+        width: 50%;
+    }
+
+    .contact2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        line-height: 2;
+    }
+
+    .contact3 a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .icons a {
+        color: white;
+    }
+}
+
+.copy {
+    text-align: center;
+    color: white;
+    background-color: rgb(71, 32, 183);
+    border-top: 1px solid rgb(109, 62, 249);
+
+}
+
+
+
+@media only screen and (max-width: 550px) {
+
+    .vid,
+    .content,
+    .info,
+    .copy,
+    .contact,
+    .more {
+        width: 117%;
+    }
+
+    .vid video {
+        height: 60vh;
+        width: 90vw;
+    }
+
+    .content {
+        align-items: center;
+        height: 60vh;
+
+        .big {
+            font-size: 5vh;
+        }
+
+        .mid {
+            font-size: 2.5vh;
+        }
+
+        .small {
+            padding: 0px 20px;
+        }
+    }
+
+    .info {
+        min-height: 100vh;
+
+        /* border: 2px solid red; */
+        .info2 {
+            font-size: 4vh;
+        }
+
+        .info3 {
+            margin-top: 1vh;
+            font-size: 2.5vh;
+        }
+    }
+
+    .more {
+        .moreimg img {
+            margin-top: 3vh;
+            height: 50vh;
+            width: 60vw;
+        }
+
+        .more1 {
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .more11 {
+            margin-left: 2.5vw;
+            margin-top: 5vh;
+            font-size: 3vh;
+        }
+
+        .more12 {
+            width: 90%;
+            padding: 10px;
+            margin-top: 1vh;
+        }
+
+        .workings {
+            margin-top: 5%;
+            font-size: 17px;
+            margin-left: 4%;
+        }
+    }
+
+    .contact {
+        height: 15vh;
+
+        .contact1 {
+            font-size: 5vh;
+        }
+
+        .contact2 {
+            line-height: 1.5;
+            font-size: 2vh;
+        }
+
+        .icons .insta {
+            font-size: 4vh;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .contact {
+        height: 13vh;
+
+        .contact1 {
+            font-size: 4vh;
+        }
+
+        .contact2 {
+            line-height: 1.5;
+            font-size: 2vh;
+        }
+
+        .icons .insta {
+            font-size: 3vh;
+        }
+    }
+}
